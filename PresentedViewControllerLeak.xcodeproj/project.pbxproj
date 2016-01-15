@@ -10,7 +10,6 @@
 		A13C5BC21B308FA400EBE6F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13C5BC11B308FA400EBE6F0 /* main.m */; };
 		A13C5BC51B308FA400EBE6F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13C5BC41B308FA400EBE6F0 /* AppDelegate.m */; };
 		A13C5BC81B308FA400EBE6F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13C5BC71B308FA400EBE6F0 /* ViewController.m */; };
-		A13C5BCB1B308FA400EBE6F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13C5BC91B308FA400EBE6F0 /* Main.storyboard */; };
 		A13C5BCD1B308FA400EBE6F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13C5BCC1B308FA400EBE6F0 /* Images.xcassets */; };
 		A13C5BD01B308FA400EBE6F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13C5BCE1B308FA400EBE6F0 /* LaunchScreen.xib */; };
 		A13C5BDC1B308FA400EBE6F0 /* PresentedViewControllerLeakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13C5BDB1B308FA400EBE6F0 /* PresentedViewControllerLeakTests.m */; };
@@ -34,7 +33,6 @@
 		A13C5BC41B308FA400EBE6F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A13C5BC61B308FA400EBE6F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A13C5BC71B308FA400EBE6F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A13C5BCA1B308FA400EBE6F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A13C5BCC1B308FA400EBE6F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A13C5BCF1B308FA400EBE6F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A13C5BD51B308FA400EBE6F0 /* PresentedViewControllerLeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentedViewControllerLeakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +83,6 @@
 				A13C5BC41B308FA400EBE6F0 /* AppDelegate.m */,
 				A13C5BC61B308FA400EBE6F0 /* ViewController.h */,
 				A13C5BC71B308FA400EBE6F0 /* ViewController.m */,
-				A13C5BC91B308FA400EBE6F0 /* Main.storyboard */,
 				A13C5BCC1B308FA400EBE6F0 /* Images.xcassets */,
 				A13C5BCE1B308FA400EBE6F0 /* LaunchScreen.xib */,
 				A13C5BBF1B308FA400EBE6F0 /* Supporting Files */,
@@ -199,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A13C5BCB1B308FA400EBE6F0 /* Main.storyboard in Resources */,
 				A13C5BD01B308FA400EBE6F0 /* LaunchScreen.xib in Resources */,
 				A13C5BCD1B308FA400EBE6F0 /* Images.xcassets in Resources */,
 			);
@@ -244,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A13C5BC91B308FA400EBE6F0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A13C5BCA1B308FA400EBE6F0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A13C5BCE1B308FA400EBE6F0 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
